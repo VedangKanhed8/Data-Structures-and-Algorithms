@@ -1,6 +1,6 @@
 
 const int maxN = 1e3 + 5;
-dp[maxN][maxN][2];
+int dp[maxN][maxN][2];
 
 int find_max_score_for_player1(int* piles , int first_index , int last_index , bool player1_will_move) {
     // Base Case
